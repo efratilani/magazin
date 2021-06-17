@@ -1,0 +1,24 @@
+.body{
+    background:rgb(234, 236, 238);
+    width: 100vw;
+    height: 100vh;
+}
+button{
+    width: 95%;
+    height: 80%;
+    border:none;
+    background-color: white;
+    margin:2.5%;
+}
+button:hover{
+    background-color: rgb(163, 162, 162);
+    border-bottom: 3px solid rgb(14, 102, 216);
+}
+.divButton{ 
+    background-color: white;
+    margin-left: 10px;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 3%;
+}
