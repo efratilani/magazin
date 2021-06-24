@@ -8,8 +8,21 @@ function App() {
     <div className="App">
     
 
-      <Home></Home>
-      </div>
+     
+      <Router>
+        <Switch>
+          <Route path="/create-post">
+            <CreatePost></CreatePost>
+          </Route>
+          <Route path="/my-megazim">
+            <MyMegazim></MyMegazim>
+          </Route>
+          <Route path="/">
+          <Home></Home>
+          </Route>
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

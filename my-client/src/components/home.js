@@ -11,6 +11,9 @@ export default function Home(props) {
     function createPost() {
         history.push("/create-post");
     }
+    function myMegazim() {
+        history.push("/my-megazim");
+    }
 
     return (
         <div className="body">
@@ -22,7 +25,7 @@ export default function Home(props) {
                     <h2>create post</h2>
                 </div>
                 <div className="divButton">
-                    <button></button>
+                    <button onClick={myMegazim}></button>
                     <h2>my megazim</h2>
                 </div>
             </div>
