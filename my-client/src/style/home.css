@@ -3,14 +3,14 @@
     width: 100vw;
     height: 100vh;
 }
-button{
+.button{
     width: 95%;
     height: 80%;
     border:none;
     background-color: white;
     margin:2.5%;
 }
-button:hover{
+.button:hover{
     background-color: rgb(163, 162, 162);
     border-bottom: 3px solid rgb(14, 102, 216);
 }

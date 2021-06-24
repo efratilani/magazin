@@ -21,11 +21,11 @@ export default function Home(props) {
             <h1>what do you want to do today?</h1>
             <div className="divContianer">
                 <div className="divButton">
-                    <button onClick={createPost}></button>
+                    <button className="button" onClick={createPost}></button>
                     <h2>create post</h2>
                 </div>
                 <div className="divButton">
-                    <button onClick={myMegazim}></button>
+                    <button className="button" onClick={myMegazim}></button>
                     <h2>my megazim</h2>
                 </div>
             </div>
