@@ -1,0 +1,31 @@
+.aside{
+    background-color:rgb(58, 64, 96);
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 20%;
+    border-top-left-radius: 100px;
+    padding-top: 200px;
+}
+.asideBottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    height: 20px;
+}
+.caret {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+  }
+  .caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  body{
+    padding:50px;
+    background:#fff;
+  }
+  
