@@ -1,0 +1,66 @@
+.myMegazin .body{
+    border: dashed 3px #bfc0c2;
+    margin: 2%;
+
+    }
+    .myMegazin {
+        background-color: #ecedee;
+        width: 100%;
+        height: 100%;
+    }
+.left{
+    float: left;
+    left:10px;
+    direction: ltr;
+}
+.right{
+     float: right;
+    right: 10px;
+    direction: rtl;
+}
+.myMegazin .btn{
+/* width:; */
+
+border: none;
+border-radius: 5px;
+font-display: inherit;
+
+}
+.myMegazin .wideBtn{
+    width: 95%;
+    height: 80%;
+    border:none;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin:2.5%;
+    
+}
+.myMegazin .wideBtn input{
+    background-color: transparent;
+    border-color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    
+}
+.myMegazin .wideBtn input :active{
+ background-color: tomato;
+}
+
+.myMegazin .wideBtn:hover{
+    /* background-color: rgb(163, 162, 162); */
+    border-bottom: 3px solid #0d8dac;
+}
+.myMegazin .black{
+    background-color: black;
+    color: white;
+}
+.myMegazin .red{
+background-color: #ff1f1f;
+color: white;
+}
+.myMegazin .blue{
+    background-color: #0d8dac;
+    color: white;
+    }
