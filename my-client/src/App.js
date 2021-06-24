@@ -6,6 +6,7 @@ import {
   BrowserRouter as Router,
   Switch, Route
 } from 'react-router-dom'
+import MyMegazim from './components/myMegazim';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Switch>
           <Route path="/create-post">
             <CreatePost></CreatePost>
+          </Route>
+          <Route path="/my-megazim">
+            <MyMegazim></MyMegazim>
           </Route>
           <Route path="/">
           <Home></Home>

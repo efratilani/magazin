@@ -25,7 +25,7 @@ export default function Home(props) {
                     <h2>create post</h2>
                 </div>
                 <div className="divButton">
-                    <button onClick={createPost}></button>
+                    <button onClick={myMegazim}></button>
                     <h2>my megazim</h2>
                 </div>
             </div>

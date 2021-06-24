@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function CreatePost(props){
+export default function MyMegazim(props){
     return(
         <>
-        <p>create post</p>
+        <p>my megazim</p>
         </>
     )
 }
