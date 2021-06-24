@@ -11,7 +11,7 @@ export default function Home(props) {
     function createPost() {
         history.push("/create-post");
     }
-    function mymegazin() {
+    function myMegazin() {
         history.push("/my-megazin");
     }
 
@@ -25,7 +25,7 @@ export default function Home(props) {
                     <h2>create post</h2>
                 </div>
                 <div className="divButton">
-                    <button className="button" onClick={myMegazim}></button>
+                    <button className="button" onClick={myMegazin}></button>
                     <h2>my megazim</h2>
                 </div>
             </div>
