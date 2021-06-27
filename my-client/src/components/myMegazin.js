@@ -22,7 +22,7 @@ setDiscountIndex(1);
             <Link to="/"class="left">Back home</Link>
         <Link to="/" class="right">Create new post</Link>
 <div>
- {discountIndex==0&&   <button class="wideBtn black" >want to get 20% discount right now?   <button onClick={discount} class="btn red">Click hear!</button></button>}
+ {discountIndex==0&&   <button class="wideBtn black" >want to get 20% discount right now?   <button onClick={discount} class="btn red">Click here!</button></button>}
  {discountIndex==1&&   <button class="wideBtn black"> <input placeholder="Name"></input> <input placeholder="Email"></input> <button class="btn blue" onClick={sendDiscount}>Send me!</button></button>}
       <h1>stories</h1>
     <p> {Moment(today).format('dddd')}, {Moment(dt).format('MMM DD yyyy')} </p> 
