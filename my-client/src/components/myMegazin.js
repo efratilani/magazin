@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import '../style/myMegazin.css';
 import {Link} from 'react-router-dom';
-import Moment from 'moment'
+import Moment from 'moment';
+import {getAllPosts} from './service';
+import ListPost  from './listPost';
 export default function Mymegazin(props){
     const [discountIndex,setDiscountIndex]=useState(0);
     const today= Date();
@@ -15,6 +17,8 @@ setDiscountIndex(1);
     // console.log(today.day)
      Moment.locale();
     var dt =Date();
+const postsArr=getAllPosts();
+console.log(postsArr)
     return(
         
         <div class="myMegazin">
@@ -27,8 +31,24 @@ setDiscountIndex(1);
       <h1>stories</h1>
     <p> {Moment(today).format('dddd')}, {Moment(dt).format('MMM DD yyyy')} </p> 
 
+<ul id="menue">
+    <li>Home</li>
+    <li>Fashion</li>
+    <li>Business</li>
+    <li>Travel</li>
+    <li>Fashion</li>
+    <li>Books</li>
+    <li>Cooking</li>
+    <li>Fashion</li>
+    <li>Business</li>
 
-</div></div>
+</ul>
+
+{postsArr.map(x=>
+<ListPost title={x.title} content={x.content} image={x.image} category={x.category}></ListPost>)}
+</div>
+
+</div>
         </div>
     )
 }
