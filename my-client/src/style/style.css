@@ -28,4 +28,23 @@
     padding:50px;
     background:#fff;
   }
+  .cards{
+    background-color:rgb(58, 64, 96) !important;
+    color:white;
+    border: none !important;
+    margin-bottom: 5px;
+  }
+  .buttonCards{
+    width: 90%;
+    border:1px solid rgb(168, 167, 167) !important;
+    margin: auto;
+    border-radius: 5px !important;
+    color: rgb(168, 167, 167) !important;
+  }
+  .buttonCards:hover{
+    opacity: 0.5;
+  }
+  .buttonCards:active{
+    border: none !important;
+  }
   
