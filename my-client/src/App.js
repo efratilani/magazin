@@ -3,8 +3,14 @@ import './App.css';
 import Home from './components/home';
 import {BrowserRouter as Router, Switch,Route}  from 'react-router-dom'
 import CreatePost  from './components/createPost';
-import MyMegazin from './components/myMegazin'
+import MyMegazin from './components/myMegazin';
+import {getMegazin} from './mongoService';
+import { useEffect } from 'react';
 function App() {
+useEffect(()=>{
+  getMegazin();
+},[])
+  
   return (
     <div className="App">
     
