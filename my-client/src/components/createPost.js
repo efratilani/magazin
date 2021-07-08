@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-export default function CreatePost(props){
-    return(
-        <>
-        <p>create post</p>
-=======
 import React, { useState } from 'react';
 import { Form, Card, Accordion } from "react-bootstrap"
 import { ChevronRight, ChevronDown } from 'react-bootstrap-icons'
@@ -91,7 +83,6 @@ export default function CreatePost(props) {
                 </Accordion>
                 <div className="asideBottom"></div>
             </div>
->>>>>>> 348f66f641044ff78edcfc7ec0930fe71c9a546f
         </>
     )
 }
