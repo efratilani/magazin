@@ -3,7 +3,10 @@ import './App.css';
 import Home from './components/home';
 import {BrowserRouter as Router, Switch,Route}  from 'react-router-dom'
 import CreatePost  from './components/createPost';
-import MyMegazin from './components/myMegazin'
+import MyMegazin from './components/myMegazin';
+import SimpleMegzin from './components/simpleMegzin'
+import { Provider } from 'react';
+//import store from ''
 function App() {
   return (
     <div className="App">
@@ -16,7 +19,11 @@ function App() {
             <CreatePost></CreatePost>
           </Route>
           <Route path="/my-Megazin">
-            <MyMegazin></MyMegazin>
+            <MyMegazin>
+              {/* <Provider store={store}> */}
+              <SimpleMegzin></SimpleMegzin>
+              {/* </Provider> */}
+            </MyMegazin>
           </Route>
           <Route path="/">
           <Home></Home>
