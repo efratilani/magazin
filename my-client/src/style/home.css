@@ -1,7 +1,7 @@
 .home.body{
     background:rgb(234, 236, 238);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 .home button{
     width: 95%;
@@ -9,6 +9,8 @@
     border:none;
     background-color: white;
     margin:2.5%;
+    border-bottom: 3px solid transparent;
+
 }
 .home button:hover{
     background-color: rgb(163, 162, 162);

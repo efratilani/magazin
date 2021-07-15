@@ -1,0 +1,28 @@
+
+.login label{
+    color: gray;
+}
+
+.login body{
+    width: 35%;
+text-align: center;
+border: 3px solid #0d8dac;
+}
+.login{
+    background-color: #0d8dac;
+}
+.login input{
+    width: 100%;
+    
+    }
+.login input:focus{
+   
+   lighting-color:#0d8dac;
+}
+.login button{
+  font-size: large;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+
+}

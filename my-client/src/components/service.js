@@ -1,7 +1,7 @@
 import axios from 'axios';
-import dogs from '../images/dogs.jpg';
-import points from '../images/points.jpg';
-import train from '../images/train.jpg';
+import dogs from '../assest/image/dogs.jpg'
+import points from '../assest/image/points.jpg';
+import train from '../assest/image/train.jpg';
 export  function getAllPosts(){
     return [
         {category:"sport",title: "mondial 2021", content:"Actualy I am not sure if there is mondial this year and even if it suposed to be- I'm sure it didnt happend...",image:dogs},

@@ -36,6 +36,7 @@ font-display: inherit;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     margin:2.5%;
+    border-bottom: 3px solid transparent;
     
 }
 .myMegazin .wideBtn input{
@@ -54,6 +55,7 @@ font-display: inherit;
 .myMegazin .wideBtn:hover{
     /* background-color: rgb(163, 162, 162); */
     border-bottom: 3px solid #0d8dac;
+    
 }
 .myMegazin .black{
     background-color: black;
