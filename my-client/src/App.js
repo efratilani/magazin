@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 function App() {
   const [id,setId]=useState();
 useEffect(()=>{
-  
+  // localStorage.removeItem("id");
  setId(localStorage.getItem("id"));
   getMegazin();
   

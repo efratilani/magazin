@@ -9,17 +9,19 @@ export default function Login(props){
     const refEmail=useRef();
 
 function loginUser(){
-
+// localStorage.removeItem("id");
     let user;
       if(refName.current.value&&refPassword.current.value&&refEmail.current.value){
      login(refName.current.value,refPassword.current.value,refEmail.current.value)
     .then(
       (data)=>{
-      
+      if(data){
         user=data;
-        
+       
         setId(user._id)
         localStorage.setItem("id",user._id)
+      }
+      else throw "no data! pleas check you are connect"
       }
     ).catch(
       (err)=>{
@@ -41,7 +43,7 @@ function loginUser(){
           <h1>  Log In With Your Account</h1>
           <div className="alignLeft">
           <label>User Name:</label><br></br>
-<input ref={refName} onFocus={true}></input><br></br>
+<input ref={refName} ></input><br></br>
 <label>Email Address:</label><br></br>
 <input ref={refEmail}></input><br></br>
 <label>Password:</label><br></br>

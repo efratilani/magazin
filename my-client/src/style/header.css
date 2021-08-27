@@ -1,15 +1,15 @@
 .header{
-    background-color: #fafafa;
+    background-color: #ffffff;
     width: 100vw;
     height: 50px;
     margin-top:-50px;
     margin-right:-50px;
     margin-left:-50px;
-    
+  
   
 }
 .icon-line{
-    background-color: black;
+   
     width: 20px;
     height: 2px;
     float: right;
@@ -20,5 +20,5 @@ margin: 0.2%;
     cursor: pointer;
 }
 .header .img-button:hover{
-    
+    opacity: 0.5;
 }
